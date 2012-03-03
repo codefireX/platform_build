@@ -18,11 +18,7 @@ PRODUCT_BRAND := generic
 PRODUCT_DEVICE := generic
 PRODUCT_NAME := core
 
-PRODUCT_PROPERTY_OVERRIDES := \
-    ro.config.notification_sound=OnTheHunt.ogg \
-    ro.config.alarm_alert=Alarm_Classic.ogg
-
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES := \
     ApplicationsProvider \
     BackupRestoreConfirmation \
     Browser \
